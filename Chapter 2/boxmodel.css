@@ -1,0 +1,139 @@
+
+header {
+    text-align: center;
+    font:bolder;
+}
+
+.coloredpart {
+    text-align: center;
+    border-bottom: 1px dotted gray;
+    border-top: 1px dotted gray;
+    width: 500px;
+    margin: auto;
+}
+
+#parent {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(186, 238, 186) ;
+    text-align: center;
+    margin-left: 150px;
+    color:lightblue;
+    outline-offset: -19px;
+    outline: blue solid 10px;
+    box-shadow: 0px 0px 0px 10px lightcoral;
+    border: 10px solid black;
+}
+
+
+li {
+    display: inline;
+    padding: 10px;
+    list-style-type: circle;
+}
+/* li::before {
+    content: "O";
+    color: blueviolet;
+    padding: 10px;
+} */
+ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+/* #divsecond {
+    text-align: center;
+    border: 1px solid black;
+    width: 500px;
+    margin:auto;
+    height: 200px;
+} */
+
+.flex-container {
+    display: flex;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+}
+.flex-container > div {
+  background-color: #b1abab;
+  margin: 10px;
+  /* padding: 30px 55px; */
+  width: 180px;
+  height: 100px;
+  color: #b1abab;
+}
+.flexwrap {
+    flex-wrap: wrap;
+}
+.noborder {
+    display: inline;
+    background-color: grey;
+    padding: 50px; 
+    color: gray;
+    margin: auto;
+    margin-top: 100px;
+    position: fixed;
+}
+.linebreak {
+    width: 100%;
+}
+
+/* .dot {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(145, 64, 64);
+    border-radius: 50%;
+    display: inline-block;
+} */
+
+#divdiv {
+    text-align: center; 
+    border-bottom: 1px dotted gray;
+    width: 500px;
+    height: 500px;
+
+}
+h2, h3 {
+    text-align: center;     
+}
+
+.borderbottom {
+    border-bottom: 1px dotted black;
+    width: 500px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.blue{
+    background-color:blue;
+}
+
+.black {
+    background-color:black;
+}
+
+.pink {
+    background-color:lightcoral;
+}
+
+/* #list {
+    list-style-type: circle;    
+} */

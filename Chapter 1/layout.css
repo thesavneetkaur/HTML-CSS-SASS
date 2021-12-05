@@ -1,0 +1,36 @@
+.root {
+    background-color: rgb(207, 200, 200);
+    padding: .5rem 0;
+}
+
+li {
+    display: inline;
+    margin: 0 .2rem;
+    /* color: #fff; */
+}
+
+header {
+    text-align: center;
+    background-color: blueviolet;
+    padding: .5rem 0;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(136, 233, 136);
+    padding: .5rem 0;
+}
+
+h1 {
+    text-align: center;
+}
+.reet {
+    background-color: rgb(193, 238, 240);
+    padding: .5rem;
+}
+
+
