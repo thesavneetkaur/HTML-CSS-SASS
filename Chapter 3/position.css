@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.divone {
+    width: 80%;
+    height: 260px;
+    margin-left: 10px;
+    margin: 0 auto;
+}
+
+.imgproperty {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -5px;
+    margin-top: -10px;
+}
+
+.float-left {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.divtwo {
+    width: 80%;
+    height: 200px;
+    margin-left: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.float-right {
+    float: right;
+    margin: 0px 0px 10px 10px;
+}
+
+.divthird {
+    margin-top: 50px;
+    /* background-color: peachpuff; */
+    border: 10px solid red;
+    /* outline-width: -5px;
+    outline: red solid 10px; */
+    background: pink;
+    padding: 20px;
+    box-shadow: 0 0 0 20px orange inset;
+}
+
+hr {
+    margin: 50px;
+    clear: both;
+    border-color: #ccc;
+    display: block;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.divforth {
+    margin-top: 50px;
+    background-color: orange;
+    border: 5px solid red;
+    padding: 20px;
+    
+}
+
+.divfifth {
+    margin-top: 50px;
+    background-color: orange;
+    border: 5px solid red;
+    padding: 20px;
+}
+
+.column {
+    width: 100%;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.shortbox {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    margin-top: 20px;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.cf::after, .cf::before {
+    content: "";
+    display: table;
+}
+
+.cf::after {
+    clear: both;
+}
