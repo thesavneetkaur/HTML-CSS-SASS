@@ -33,14 +33,17 @@ body {
     text-align: center;
     width: 70%;
     margin: 0 auto;
-    background-image: url("https://img.8wallpapers.com/uploads/2019/10/223fd6341efb431a8040beb8.jpg");
+    /* background-image: url("https://img.8wallpapers.com/uploads/2019/10/223fd6341efb431a8040beb8.jpg"); */
     height: 300px;
     margin-top: 100px;
     margin-bottom: 50px;
     padding-top: 150px;
     font-weight: 700;
     font-size: larger;
-    border-radius: 20%;
+    border-radius: 2rem;
+    /* background: linear-gradient(gray,red); */
+    background-image: linear-gradient(to right bottom, 
+     rgba(141, 128, 128, 0.295), rgba(250, 8, 8, 0.308)), url('https://img.8wallpapers.com/uploads/2019/10/223fd6341efb431a8040beb8.jpg');
 }
 
 .box-2 {
