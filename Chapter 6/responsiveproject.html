@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Responsive Project</title>
+        <link rel="stylesheet" href="responsiveness.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="head-container">
+            <nav class="navbar">
+            <div class="header">
+                <img src="images/logo.png"/>
+                <!--<a><img src="images/hamburger.png"/></a>-->
+            </div>
+            <ul class="nav-list" id="navi-list">
+                <li class="list-item"><a>Portfolio</a></li>
+                <li class="list-item"><a>About</a></li>
+                <li class="list-item"><a>Contact</a></li>
+                <li class="list-item"><a>More</a></li>
+            </ul>
+            <div class="menu-icon" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+            </nav>
+
+            <div class="container-content">
+                <h1>Altcampus an alternative to collge</h1>
+                <br><h5>Web Developer-Graphic Artist-User Experience Designer</h5>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <h1>Portfolio</h1>
+            <div class="portfolio-boxes">
+            <div class="d-1">fds</div>
+            <div class="d-2">dsf</div>
+            <div class="d-3">sdf</div>
+            <div class="d-5">sdf</div>
+            <div class="d-6">sdf</div>
+            <div class="d-7">sdf</div>
+            </div>
+        </div>
+
+        <div class="about-container">
+            <div><h1>About</h1></div>
+            <div class="about-para"><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p></div>
+            <button class="btn"><strong>Apply</strong></button>
+        </div>
+
+        <div class="contact">
+            <div><h1>Contact Me</h1></div>
+            <div class="contact-form">
+                <form>
+                    <input class="form-input" type="text" placeholder="Name" name="username"><br>
+                    <input class="email placeholder" type="text" placeholder="Email" name="email_id">
+                    <br>
+                    <input type="tel" name="Phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+                    <textarea rows="8" cols="65" placeholder="Message" name="Message"></textarea>
+                    <br> <br>
+                    <input class="btn-2" type="submit" value="Send">
+                  </form>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13581.492714313175!2d75.24454598199988!3d31.678364651080187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391bc603fc2de06d%3A0xdd7df4aacc7dd9ce!2sMehta%20Chowk%2C%20Punjab%20143114!5e0!3m2!1sen!2sin!4v1639824870409!5m2!1sen!2sin"></iframe>
+        </div>
+
+        <div class="table-container">
+            <div><h1>Table</h1></div>
+            <div class="table-table">
+                <table>
+                    <tr>
+                        <th>Sites</th>
+                        <th>Views</th>
+                        <th>Clicks</th>
+                        <th>Average</th>
+                    </tr>
+                    <tr>
+                        <td class="red-table">Google</td>
+                        <td>9518</td>
+                        <td>6369</td>
+                        <td>01:32:50</td>
+                    </tr>
+                    <tr>
+                        <td class="red-table">Twitter</td>
+                        <td>7326</td>
+                        <td>10437</td>
+                        <td>00:51:22</td>
+                    </tr>
+                    <tr>
+                        <td class="red-table">Amazon</td>
+                        <td>4162</td>
+                        <td>5327</td>
+                        <td>00:24:34</td>
+                    </tr>
+                    <tr>
+                        <td class="red-table">LinkedIn</td>
+                        <td>3654</td>
+                        <td>2961</td>
+                        <td>00:12:10</td>
+                    </tr>
+                    <tr>
+                        <td class="red-table">CodePen</td>
+                        <td>2002</td>
+                        <td>4135</td>
+                        <td>00:46:19</td>
+                    </tr>
+                    <tr>
+                        <td class="red-table">GitHub</td>
+                        <td>4623</td>
+                        <td>3486</td>
+                        <td>00:31:52</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="foot-div">
+            <h2>Location</h2>
+            <p>vpo: Rakkar,Sidhbari <br> Dharamshala, 176057</p>
+            </div>
+            <div class="foot1-div">
+            <h2>Around the web</h2>
+            <img src="images/social-media-icons.png"/>
+            </div>
+            <div class="foot2-div">
+            <h2>About altcampus</h2>
+            <p>A 6-month program that helps you become a software developer By <a href="#">Altcampus</a>.</p>
+            </div>
+        </div>
+        <footer>
+            <h6>Copyright &copy; Your Website 2021</h6>
+        </footer>
+    </body>
+    <script>
+        const toggleButton = document.getElementById('toggle-button')
+        const naviList = document.getElementById('navi-list')
+
+        toggleButton.addEventListener('click', () => {
+            naviList.classList.toggle('active')
+        })
+    </script>
+</html>
