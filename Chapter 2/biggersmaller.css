@@ -1,0 +1,100 @@
+
+
+
+/* .biggest {
+    width: 500px;
+    height: 200px;
+    background-color: aquamarine;
+    float: left;
+    margin: 10px;
+    margin-left: 400px;
+}
+
+.bigger {
+    width: 200px;
+    height: 200px;
+    background-color:blueviolet;
+    float: left;
+    margin: 10px;
+       
+}
+
+.big {
+    width: 200px;
+    height: 200px;
+    background-color:chartreuse;
+    float: left;
+    margin: 10px;
+  
+} */
+
+#divone {
+    width: 500px;
+    height: 200px;
+    background-color: aquamarine;
+    float: left;
+    margin: 10px;
+}
+
+#divsecond {
+    width: 200px;
+    height: 200px;
+    background-color:blueviolet;
+    float: left;
+    margin: 10px;
+}
+
+#divthird {
+    width: 200px;
+    height: 200px;
+    background-color:chartreuse;
+    float: left;
+    margin: 10px;
+}
+
+#divfourth {
+    width: 200px;
+    height: 200px;
+    background-color:brown;
+    margin: 10px;
+}
+
+#divfifth {
+    width: 500px;
+    height: 200px;
+    background-color:coral;
+    margin: 10px;
+}
+
+#divsixth {
+    width: 200px;
+    height: 200px;
+    background-color:darkblue;
+    margin: 10px;
+}
+
+#divseventh {
+    width: 200px;
+    height: 200px;
+    background-color:cornflowerblue;
+    margin: 10px;
+}
+
+#diveigth {
+    width: 200px;
+    height: 200px;
+    background-color:darkcyan;
+    margin: 10px;
+}
+
+#divninth {
+    width: 500px;
+    height: 200px;
+    background-color:darkolivegreen;
+    margin: 10px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction:row;
+}

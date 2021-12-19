@@ -1,0 +1,28 @@
+#div1 {
+    background-color: maroon;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.flex {
+
+    background-color: maroon;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#parent {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(186, 238, 186) ;
+    text-align: left;
+    color:black;
+    outline-offset: -19px;
+    outline: blue solid 10px;
+    box-shadow: 0px 0px 0px 10px lightcoral;
+    border: 10px solid black;
+    margin-top: 20px;
+    padding: 0 1rem;
+}

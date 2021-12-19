@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.container {
+    display: flex;
+    margin-top: 150px;
+}
+.box {
+    height: 300px;
+    width: 400px;
+    background-color: #FF0248;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 10%;
+}
+
+body {
+
+    background: gray url("https://i.pinimg.com/originals/0f/0e/31/0f0e3133d9b3f8e6993a39d306be7b8b.jpg") repeat 0 100%;
+}
+
+.box-4 {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    /* background-image: url("https://img.8wallpapers.com/uploads/2019/10/223fd6341efb431a8040beb8.jpg"); */
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 2rem;
+    /* background: linear-gradient(gray,red); */
+    background-image: linear-gradient(to right bottom, 
+     rgba(141, 128, 128, 0.295), rgba(250, 8, 8, 0.308)), url('https://img.8wallpapers.com/uploads/2019/10/223fd6341efb431a8040beb8.jpg');
+}
+
+.box-2 {
+    background: #FF0248;
+    background: linear-gradient(to right, gray, #FF0248);
+}
+
+.box-3 {
+    background: gray;
+    background: radial-gradient(#FF0248, gray);
+}

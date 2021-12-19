@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    background-color: lightgray;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.maindiv {
+    width: 70%;
+    height: 700px;
+    background: whitesmoke;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.childdiv-1-3 {
+    
+    width: 30%;
+    height: auto;
+    background-color: whitesmoke;
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.childdiv-2 {
+    
+    width: 40%;
+    height: auto;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hero {
+    padding: 20px 30px 10px 30px;
+  }
+
+img {
+    width: 350px;
+    height: 250px;
+    padding-top: 0 0 0 20px;
+}
+
