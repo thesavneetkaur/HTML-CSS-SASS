@@ -23,9 +23,9 @@
 header {
   background-color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 5rem;
   /* border: black solid 1px; */
-  justify-content: space-between;
+  justify-content: space-around;
   grid-gap: 20px;
 }
 .nav-list {
@@ -37,6 +37,18 @@ header {
   display: none;
 }
 
+/* .checkbtn {
+  font-size: 5px;
+  color: var(--yellow);
+  float: right;
+  line-height: 10px;
+  /* margin-right: 20px; */
+/* border: 1px solid black; */
+/* display: none;
+}
+#check {
+  display: none;
+} */
 .nav-list a {
   text-decoration: none;
   text-transform: uppercase;
@@ -317,14 +329,15 @@ i {
   min-height: 50vh; */
   /* border: 1px black solid; */
   background-color: var(--orange);
-  padding-bottom: 1rem;
-  height: 100%;
+  /* padding-bottom: 1rem; */
+  height: auto;
 }
 .my-experience {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  min-height: 50vh;
+
+  /* min-height: 50vh; */
   /* border: 1px black solid; */
   padding: 3rem 3rem;
 }
@@ -369,7 +382,7 @@ i {
 .education {
   background-color: var(--yellow);
   padding-bottom: 1rem;
-  height: 100%;
+  height: auto;
 }
 .my-education {
   display: grid;
@@ -616,6 +629,21 @@ textarea {
     background-color: #e3ae58;
     /* padding: 2rem; */
   }
+  /* .checkbtn {
+    display: block;
+  }
+  .nav-items {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: 0;
+    ba
+    text-align: center;
+  }
+  .nav-list ul li {
+    display: block;
+  } */
 }
 /* Desktop Styles */
 @media only screen and (min-width: 600px) {
@@ -638,6 +666,7 @@ textarea {
 
   .bg-img h1 {
     font-size: 25px;
+    font-weight: 500;
     padding: 2rem 7rem;
     display: block;
     text-shadow: 1px 1px var(--white);
@@ -646,20 +675,20 @@ textarea {
   .nav-list {
     /* border: 1px black solid; */
     width: 100%;
-    padding: 0 6rem;
+    /* padding: 0 6rem; */
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     font-weight: 500;
     font-size: 14px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
   }
   .nav-items {
     display: flex;
   }
   .nav-list li a {
-    padding: 0 1rem;
+    padding: 1rem;
   }
   .nav-list li a:hover {
     color: var(--yellow);
@@ -716,6 +745,8 @@ textarea {
   .about-text p {
     font-size: 14px;
     letter-spacing: 1px;
+    line-height: 20px;
+    /* padding: 2rem; */
   }
   .about-img {
     /* border: 1px black solid; */
@@ -732,33 +763,50 @@ textarea {
   .experience-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     justify-content: center;
-    align-items: center;
+    /* align-items */
     /* border: 1px black solid; */
-    height: 100%;
+    height: 60vh;
   }
   .experience-pic {
     background: url(images/experience-img.jpg);
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
+    /* width: 100%; */
     background-size: cover;
     /* border: 1px black solid; */
   }
   .my-education {
-    height: 100%;
-    /* border: 1px black solid; */
+    height: auto;
+    padding: 4rem 3rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: fr 1fr 1fr 1fr;
-
-    /* min-height: 50vh; */
-    /* border: 1px black solid; */
-    padding: 3rem 3rem;
+    grid-template-rows: 4rem 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: flex-start;
+    grid-gap: 15px;
   }
   .my-experience {
-    height: 100%;
+    height: auto;
+    padding: 4rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: flex-start;
+    grid-gap: 15px;
     /* border: 1px black solid; */
+  }
+  .education-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    /* align-items */
+    /* border: 1px black solid; */
+    height: 60vh;
   }
   .education-bg {
     height: 100%;
@@ -781,6 +829,9 @@ textarea {
   }
   .my-experience p {
     font-size: 14px;
+  }
+  .quotes-bg {
+    height: 20vh;
   }
   .quotes-text {
     padding: 4rem;
