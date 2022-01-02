@@ -350,7 +350,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem;
+  padding: 3rem;
 }
 .footer-items li a {
   color: white;
